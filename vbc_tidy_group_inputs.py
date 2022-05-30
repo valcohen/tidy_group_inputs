@@ -1,7 +1,18 @@
+# Copyright 2022 Val Cohen
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#     http://www.apache.org/licenses/LICENSE-2.0
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
 bl_info = {
     "name": "Tidy Group Inputs",
-    "description": "Collapse the Group Input nodes that Blender expands every time you add an input.",
-    "author": "vbc",
+    "description": "Hide the Group Input node output sockets that Blender displays every time you add an input.",
+    "author": "Val Cohen",
     "version": (1, 0),
     "blender": (2, 83, 0),
     "location": "Node Editor > N Panel > Group",
