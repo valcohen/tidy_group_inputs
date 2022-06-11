@@ -23,7 +23,7 @@ The addon's operations change all the Group Input nodes in the currently-edited 
 
 The current node tree is named at the top of the addon panel.
 
-Below that, `Hide unused sockets` hides output sockets without any links in all Group Input nodes. If `Incl. Unnamed Socket` is checked, the hide action also includes the unnamed output socket Blender automatically adds to Group Inputs.
+Below that, `Hide Unused Sockets` hides output sockets without any links in all Group Input nodes. If `Incl. Unnamed Socket` is checked, the hide action also includes the unnamed output socket Blender automatically adds to Group Inputs.
 
 In Preferences, you can `Enable Show All Button` to display a `Show All` button that will reverse the effect, i.e. it will show all sockets on all Group Inputs. This was slightly useful during development, and is mostly there to help tamp down the compulsion to have symmetrical actions. It's disabled by default.
 
